@@ -1,0 +1,262 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>APLICACION FINAL</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temas7.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+  <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+	<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+   
+<body onLoad="MM_preloadImages('imagenes/descarga.jpg')"><div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+   <h1>UNIVERSIDADES</h1>
+  </div>
+  
+  <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/egresados.jpg" alt="egresados" title="egresados" id="wows1_0"/></li>
+		<li><img src="visor/data1/images/graduados3.jpg" alt="graduados3" title="graduados3" id="wows1_1"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data1/images/graduadose1436256920776.jpg" alt="http://wowslider.com/" title="Graduados-e1436256920776" id="wows1_2"/></a></li>
+		<li><img src="visor/data1/images/lasuniversidades.jpg" alt="las-universidades" title="las-universidades" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="egresados"><span><img src="visor/data1/tooltips/egresados.jpg" alt="egresados"/>1</span></a>
+		<a href="#" title="graduados3"><span><img src="visor/data1/tooltips/graduados3.jpg" alt="graduados3"/>2</span></a>
+		<a href="#" title="Graduados-e1436256920776"><span><img src="visor/data1/tooltips/graduadose1436256920776.jpg" alt="Graduados-e1436256920776"/>3</span></a>
+		<a href="#" title="las-universidades"><span><img src="visor/data1/tooltips/lasuniversidades.jpg" alt="las-universidades"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+<script type="text/javascript" src="visor/engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>BENEMERITA UNIVERSIDAD AUTONOMA DE PUEBLA</h2>
+        </a>
+       </li>
+      
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>UNIVERSIDAD DEL VALLE DE PUEBLA</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>UPAEP</h2>
+       </a>
+    </li>
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>DESARROLLADO POR</h1>
+    <P>
+ CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL DE SERVICIOS N.16<br>
+ WENDY FLORES RONCO<br>
+ 4°H
+    </P>
+  </div>
+   </div>
+   
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="imagenes/Books-2-icon.png"  width="46" height="46">
+    </div>
+    <div>
+      <h4>APLICACION FINAL</h4>
+      <h4>WENDY FLORES RONCO</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+    <h1>TECNICO EN RADIOLOGIA</h1>
+    </div>
+    <center><img src="imagenes/radiolog.jpg" width="360" height="180"></center>
+   
+     <P><div align="left">
+     Objetivo:<br>
+Formar Médicos Especialistas en Radiología e Imagen, capaces de contribuir en la solución de problemas de enfermedad, con base en la interpretación adecuada de los estudios radiológicos pertinentes en cada caso, y de aplicar las herramientas docentes y de investigación en su formación permanente<br><br>
+</div></P>
+<div>
+    <p><a href="http://www.viep.buap.mx/posgrado/posgrados-informacion.php?id_prog=00027"><img src="imagenes/clic.jpg" width="343" height="82"></a></p>
+</div>
+    
+   <div data-role="content" align="center">
+      <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    
+    
+
+   <h1>REQUISITOS</h1>
+    <p><div align="left">Requisitos:<br>
+‐ Constancia de seleccionado en el Examen Nacional de Selección para Aspirantes a Residencias Médicas correspondiente al período de inscripción Actual.<br>
+‐ Título de Médico Cirujano y Partero y Cédula Profesional.<br>
+‐ Acta de Nacimiento y CURP.<br>
+‐ Carta de liberación de Servicio Social.<br>
+‐ Cartilla del Servicio Militar Nacional liberada (para varones).<br>
+‐ Carta promedio de la Facultad de Medicina y Cardex legalizado.<br>
+‐ Carta de antecedentes No Penales reciente.<br>
+‐Fotografías tamaño infantil (cuatro).</div></p>
+    </div>
+   </div>
+  
+   
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>UBICACION</h1>
+    <center><img src="imagenes/ubicacion-buap.jpg" width="280" height="250"></center>
+    <P>
+    Ubicado en: Benemérita Universidad Autónoma de Puebla<br>
+Dirección: Calle 13 Sur 2702, Los Volcanes, 72420 Puebla, Pue.<br>
+Teléfono:01 222 229 5500
+    </P>
+    </div>
+   </div>
+   
+    </div> 
+    
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <center><img src="imagenes/Books-2-icon.png"  width="46" height="46"></center>
+     <h4>APLICACION FINAL, WFR</h4>
+   </div>
+ </div>
+ </div>
+ 
+ 
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true"  data-back-btn-text="regresar" data-back-btn-theme="b">
+    <h1>GASTRONOMIA</h1>
+  </div>
+  <div data-role="content" align="center">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/descarga.jpg',1)"><img src="imagenes/hqdefault (1).jpg" width="340" height="220" id="Image17"></a>
+<p><div align="left">Desarrolla habilidades administrativas, contables, de investigación y comercialización que aseguren el buen manejo y desarrollo de la empresa, así como la creación, gestión y administración de nuevos conceptos en empresas.<br><br>
+     De la misma manera, debe ser capaz de promover y difundir la gastronomía de México a nivel nacional e internacional.</div></p>
+     
+     <div>
+       <p><a href="http://www.uvp.mx/negocios-hospitalidad-sociales/gastronomia"><img src="imagenes/clic.jpg" width="363" height="93"></a></p>
+     </div>
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>REQUISITOS?</h1>
+    <P><div align="left">
+    Requisitos de Ingreso a Licenciaturas SEJ y SEP (cuatrimestrales)<br><br>
+
+Solicitud de inscripción de SIAAF (F-UI-01)<br>
+Solicitud de aspirante a grado superior F-CE-88 solo en caso de ser aspirantes a grado superior<br>
+Acta de nacimiento original reciente (vigencia de un año) y una copia<br>
+Certificado de bachillerato original con tres copias<br>
+4 fotografías tamaño infantil blanco y negro de estudio o instantáneas<br>
+Copia de CURP<br>
+Copia de credencial de elector<br>
+Para grado superior deberá de cumplir con los referidos en el P-CE-21 Procedimiento de Inscripción de Aspirantes a Grado Superior.<br>
+   </div> </P>
+    </div>
+   </div>
+   
+   <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>UBICACION</h1>
+     <center><img src="imagenes/vt.png" width="260" height="160"></center>
+    <P>
+   3 sur No. 5759 , Colonia El Cerrito, C.P. 72440 Puebla, Pue., México
+    </P>
+    </div>
+   </div>
+   
+   <div data-role="footer" data-theme="b" data-position="fixed">
+   <center><img src="imagenes/Books-2-icon.png"  width="46" height="46"></center>
+   <h4>APLICACION CINCO,WFR</h4>
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+    <h1>DISEÑO GRAFICO Y DIGITAL</h1>
+    </div>
+     <center><img src="imagenes/disenografico1.jpg"  width="260" height="160"></center>
+    <P>Como diseñador gráfico y digital, realizarás estrategias innovadoras, para solucionar problemas de comunicación visual; siendo líder de proyectos en medios digitales, impresos y de nuevas tecnologías. Con el objetivo de desarrollar piezas de diseño altamente creativas y persuasivas, dirigidas a sectores sociales, culturales, empresariales y de gobierno, en ámbitos locales, nacionales e internacionales.</P>
+    <div>
+      <p><a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=147&Itemid=167"><img src="imagenes/clic.jpg" width="341" height="89"></a></p>
+    </div>
+    
+   <div data-role="content" align="center">
+    <div>
+    
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>REQUISITOS</h1>
+     <P>
+     <div align="left">REQUISITOS DE INGRESO:<br>
+Contar con certificado de estudios de Bachillerato.<br>
+Haber sido aceptado para ingresar a la Universidad por parte del Comité de Admisiones, una vez concluidas las etapas del proceso de selección.<br>
+Realizar la inscripción en las fechas establecidas para ello<br>
+    </div> </P>
+   </div>
+ </div>
+     
+     
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>UBICACION</h1>
+    <center><img src="imagenes/staticmap.png" width="440" height="300"></center>
+    <P>
+    Dirección: Calle 21 Sur 1103, Santiago, 72410 Puebla, Pue.<br>
+Teléfono:01 222 229 9400
+    </P>
+  </div>
+   </div>
+
+ <div data-role="footer" data-theme="b" data-position="fixed">
+    <center><img src="imagenes/Books-2-icon.png"  width="46" height="46"></center>
+     <h4>APLICACION FINAL, WFR</h4>
+   </div>
+ </div>
+</div>
+
+</body>
+</html>
